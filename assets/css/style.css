@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One:100,200,300,400,500,600,700|Red+Hat+Display:100,200,300,400,500,600,700');
+
+/*-------------------------------------------------------------------NAVBAR*/
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    border: 0;
+    position: fixed;
+}
+
+.nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar-dark {
+    background-color: #d6d5d5!important;
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.nav-item {
+    font-weight: 200;
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 5px;
+}
+
+.navbar-brand {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #e84610!important;
+    letter-spacing: 7px;
+    text-decoration: none;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .5);
+    color: #111111;
+}
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-expand-sm .navbar-nav .nav-link:hover {
+    color: rgba(0, 0, 0, .5);
+    color: #e84610;
+}
+
+#navbarNavDropdown .active a {
+    color: #e84610!important;
+}
+
+/*-------------------------------------------------------------------PARALLAX*/
+
+.jumbotron {
+    margin: 0;
+    border-radius: 0;
+}
+
+.parallaxone {
+    background-image: url("../../assets/images/parallaxone.jpg");
+    min-height: 1500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.parallaxone h3 {
+    color: #111111;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: lighter;
+    padding-top: 50px;
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+
+.parallaxone p {
+    color: #e84610;
+    font-weight: 100;
+    letter-spacing: 7px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 0;
+
+}
+
+.parallaxtwo {
+    background-color: #BDBDBD;
+    min-height: 800px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.parallaxtwo h1 {
+    color: #111111;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+.parallaxthree {
+    background-image: url("../../assets/images/parallaxbottom.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.parallaxthree h1 {
+    color: #e84610;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 7px;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------ABOUT*/
+
+.about {
+    max-width: 60%;
+    background-color: white;
+    display: inline;
+}
+
+/*-------------------------------------------------------------------PORTFOLIO*/
+
+.portfolio-images {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+/*-------------------------------------------------------------------FORM*/
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 60%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    padding: 20px;
+}
+
+
+button[type=submit] {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button[type=submit]:hover {
+    color: #e84610;
+    background-color: #fafafa;
+    border: 1px solid #e84610;
+}
+
+.form-control {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.form-text {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: left;
+    color: #e84610;
+}
+
+/*-------------------------------------------------------------------FOOTER*/
+
+footer {
+    background-color: #d6d5d5;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    color: #fafafa;
+    bottom: 0;
+    padding: 0px;
+    height: 80px;
+}
+
+.footer-content {
+    color: #111111;
+    text-align: center;
+
+}
+
+.social-links li a i {
+    width: 50px;
+    height: 50px;
+    padding: 12px;
+
+    border-radius: 50%;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit transition: all 0.35s ease-in-out;
+    -o transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #e84610;
+}
+
+#footer-details {
+    padding: 20px;
+}
+
+/*-------------------------------------------------------------------MEDIA QUERIES*/
+
+@media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
