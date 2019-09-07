@@ -67,7 +67,7 @@
 
 .parallaxone {
     background-image: url("../../assets/images/parallaxone.jpg");
-    min-height: 1000px;
+    min-height: 1200px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -134,7 +134,7 @@
 
 .parallaxfour {
     background-image: url("../../assets/images/parallaxbottom.jpg");
-    min-height: 800px;
+    min-height: 1200px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
