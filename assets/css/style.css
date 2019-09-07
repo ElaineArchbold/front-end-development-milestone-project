@@ -67,7 +67,7 @@
 
 .parallaxone {
     background-image: url("../../assets/images/parallaxone.jpg");
-    min-height: 1500px;
+    min-height: 1000px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
