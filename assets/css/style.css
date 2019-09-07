@@ -7,6 +7,7 @@
     width: 100%;
     border: 0;
     position: fixed;
+    z-index: 9999;
 }
 
 .nav-container {
@@ -80,7 +81,6 @@
     margin-top: 100px;
     text-align: center;
     margin-bottom: 0;
-
 }
 
 .parallaxone p {
@@ -90,25 +90,49 @@
     text-align: center;
     padding: 20px;
     margin-top: 0;
-
 }
 
 .parallaxtwo {
-    background-color: #BDBDBD;
-    min-height: 800px;
+    background-image: url("../../assets/images/profile.png");
+    min-height: 600px;
     background-attachment: scroll;
     background-size: cover;
     background-position: 50% 50%;
 }
 
-.parallaxtwo h1 {
+.parallaxtwo h2 {
+    padding: 40px;
+    color: #fafafa;
+    font-family: 'Julius Sans One', sans-serif;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.parallaxtwo p {
+    color: #e84610;
+    font-weight: 100;
+    letter-spacing: 4px;
+    line-height: 50px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.parallaxthree {
+    background-color: #BDBDBD;
+    min-height: 600px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.parallaxthree h1 {
     color: #111111;
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 7px;
     text-align: center;
 }
 
-.parallaxthree {
+.parallaxfour {
     background-image: url("../../assets/images/parallaxbottom.jpg");
     min-height: 800px;
     background-attachment: fixed;
@@ -116,7 +140,7 @@
     background-position: 50% 50%;
 }
 
-.parallaxthree h1 {
+.parallaxfour h1 {
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 7px;
@@ -124,20 +148,30 @@
 }
 
 
-/*-------------------------------------------------------------------ABOUT*/
+/*-------------------------------------------------------------------PORTFOLIO*/
 
-.about {
-    max-width: 60%;
-    background-color: white;
-    display: inline;
+.portfolio-page {
+    background-image: url("../../assets/images/parallaxbottom.jpg");
+    min-height: 1900px;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
 }
 
-/*-------------------------------------------------------------------PORTFOLIO*/
 
 .portfolio-images {
     margin-top: 100px;
     padding: 20px;
 }
+
+.portfolio-page h3 {
+    color: #e84610;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
 
 /*-------------------------------------------------------------------FORM*/
 
@@ -192,8 +226,8 @@ footer {
     width: 100%;
     color: #fafafa;
     bottom: 0;
-    padding: 0px;
-    height: 80px;
+    padding-bottom: 20px;
+    height: 90px;
 }
 
 .footer-content {
