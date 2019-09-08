@@ -132,9 +132,11 @@
     text-align: center;
 }
 
+
 .parallaxfour {
     background-image: url("../../assets/images/parallaxbottom.jpg");
-    min-height: 1200px;
+    min-height: 600px;
+    margin-bottom: 100px;
     background-attachment: fixed;
     background-size: cover;
     background-position: 50% 50%;
@@ -147,6 +149,14 @@
     text-align: center;
 }
 
+/*-------------------------------------------------------------------CAROUSEL*/
+
+.carousel img {
+    background-color: #d6d5d5;
+    margin: 0;
+    border: 2px solid #e84610;
+    border-radius: 15px;
+}
 
 /*-------------------------------------------------------------------PORTFOLIO*/
 
@@ -172,6 +182,104 @@
     margin-top: 0;
 }
 
+/*-------------------------------------------------------------------CONTACT PAGE*/
+
+.col-12 {
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 20px;
+}
+
+.find-me {
+
+    background-image: url("../../assets/images/contactbottom.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin-bottom: 80px;
+}
+
+.find-me h1 {
+    color: #e84610;
+    padding-bottom: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
+.find-me h3 {
+    color: #e84610;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+
+}
+
+.find-me p {
+    color: #111111;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.find-me-container {
+    background-color: white;
+    opacity: .9;
+    margin: 0 auto;
+    max-width: 40%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.main-form {
+    padding: 40px;
+    margin-top: 100px;
+    border-radius: 5px;
+    background-color: #fafafa;
+    margin-bottom: 100px;
+}
+
+.main-form h1 {
+    color: #e84610;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.main-form button[type=submit] {
+    font-family: 'Julius Sans One', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610;
+    color: white;
+    font-size: 28px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-form button[type=submit]:hover {
+    color: #e84610;
+    background-color: #fafafa;
+    border: 1px solid #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit transition: all 0.35s ease-in-out;
+    -o transition: all 0.35s ease-in-out;
+}
+
+.main-form .form-control {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.main-form .form-text {
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: left;
+    font-size: 28px;
+    color: #e84610;
+}
 
 /*-------------------------------------------------------------------FORM*/
 
@@ -203,6 +311,10 @@ button[type=submit]:hover {
     color: #e84610;
     background-color: #fafafa;
     border: 1px solid #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit transition: all 0.35s ease-in-out;
+    -o transition: all 0.35s ease-in-out;
 }
 
 .form-control {
@@ -240,7 +352,6 @@ footer {
     width: 50px;
     height: 50px;
     padding: 12px;
-
     border-radius: 50%;
     font-size: 30px;
     line-height: 30px;
@@ -263,11 +374,53 @@ footer {
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
-@media(min-width: 992px) {
+@media(min-width:320px) and (max-width:767px) {
     .center-form {
         padding-top: 30px;
         min-height: 240px;
         margin: 0 auto;
-        max-width: 50%;
+        max-width: 90%;
     }
 }
+
+@media(min-width: 768px) and (max-width:991px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 70%;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxthree {
+        min-height: inherit;
+    }
+}
+
+
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxfour {
+        margin-bottom: 100px;
+        min-height: inherit;
+
+    }
+}
+
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxthree .parallaxfour h1 {
+        letter-spacing: 0px;
+    }
+
+    @media(min-width:320px) and (max-width:767px) {
+        .find-me-container {
+            background-color: white;
+            opacity: .9;
+            padding-top: 10px;
+            margin: 0 auto;
+            max-width: 90%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            padding: 20px;
+        }
