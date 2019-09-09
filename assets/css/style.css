@@ -383,6 +383,7 @@ footer {
     }
 }
 
+
 @media(min-width: 768px) and (max-width:991px) {
     .center-form {
         padding-top: 30px;
@@ -392,6 +393,44 @@ footer {
     }
 }
 
+@media(min-width:320px) and (max-width:991px) {
+    .navbar-brand {
+        letter-spacing: 3px;
+    }
+}
+
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxone h3 {
+        font-size: 5vw;
+    }
+}
+
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxone p {
+        font-size: 4vw;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .parallaxtwo {
+        background-color: #202020;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .parallaxtwo h2 {
+        font-size: 8vw;
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+    .parallaxtwo p {
+        font-size: 5vw;
+        line-height: 30px;
+    }
+}
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxthree {
@@ -399,6 +438,12 @@ footer {
     }
 }
 
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxthree h1 {
+        font-size: 7vw;
+        letter-spacing: 2px;
+    }
+}
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxfour {
@@ -409,18 +454,21 @@ footer {
 }
 
 @media(min-width:320px) and (max-width:992px) {
-    .parallaxthree .parallaxfour h1 {
-        letter-spacing: 0px;
+    .parallaxfour h1 {
+        font-size: 7vw;
+        letter-spacing: 2px;
     }
+}
 
-    @media(min-width:320px) and (max-width:767px) {
-        .find-me-container {
-            background-color: white;
-            opacity: .9;
-            padding-top: 10px;
-            margin: 0 auto;
-            max-width: 90%;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            padding: 20px;
-        }
+@media(min-width:320px) and (max-width:767px) {
+    .find-me-container {
+        background-color: white;
+        opacity: .9;
+        padding-top: 10px;
+        margin: 0 auto;
+        max-width: 90%;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        padding: 20px;
+    }
+}
