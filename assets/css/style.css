@@ -66,7 +66,7 @@
 }
 
 .parallaxone {
-    background-image: url("../../assets/images/parallaxone.jpg");
+    background-image: url("../../assets/images/BW10.jpg");
     min-height: 1200px;
     background-attachment: fixed;
     background-size: cover;
@@ -134,7 +134,7 @@
 
 
 .parallaxfour {
-    background-image: url("../../assets/images/parallaxbottom.jpg");
+    background-image: url("../../assets/images/BW9.jpg");
     min-height: 600px;
     margin-bottom: 100px;
     background-attachment: fixed;
@@ -161,26 +161,34 @@
 /*-------------------------------------------------------------------PORTFOLIO*/
 
 .portfolio-page {
-    background-image: url("../../assets/images/parallaxbottom.jpg");
+    margin-top: 80px;
+    margin-bottom: 100px;
+    background-color: #fafafa;
     min-height: 1900px;
-    background-attachment: scroll;
-    background-size: cover;
-    background-position: 50% 50%;
 }
 
-
 .portfolio-images {
-    margin-top: 100px;
-    padding: 20px;
+    padding: 40px;
 }
 
 .portfolio-page h3 {
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
-    margin-bottom: 0;
-    margin-top: 0;
+
 }
+
+.img-thumbnail {
+    border: 1px solid #e84610;
+    border-radius: 5px;
+}
+
+.photos p {
+    color: #e84610;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+}
+
 
 /*-------------------------------------------------------------------CONTACT PAGE*/
 
@@ -192,7 +200,7 @@
 
 .find-me {
 
-    background-image: url("../../assets/images/contactbottom.jpg");
+    background-image: url("../../assets/images/BW11.jpg");
     background-attachment: scroll;
     background-size: cover;
     background-position: 50% 50%;

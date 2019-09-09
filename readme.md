@@ -14,12 +14,12 @@ My goal in the design is to display Ritchies porfolio of work, along with his co
 
 
 ## Features
-I have added a scrolling parallax to the home page, along with a photo carousel.
+The home page features a scrolling parallax effect, with photo carousel and contact form.
+The portfolio page includes a gallery lightbox made from a snippet taken from https://epicbootstrap.com/snippets/lightbox-gallery.
 
 
 ### Features Left to Implement
-I would like to add a modal to have the images in the porfolio page appear in a lightbox.
-I would also like to add an 'upcoming events' page when Ritchie begins to display his work in public.
+I would like to add a 'shop' page where people could purchase prints of the images and an 'upcoming events' page when Ritchie begins to display his work in public.
 
 
 ## Testing
@@ -34,9 +34,6 @@ The CSS was checked on the W3C CSS Validation Service.
 ## Deployment
 
 
-
-## Credits
-
 ### Content
 All photographs used are those of Ritchie Hogan, and are being used for the purpose of this project with his permimssion.
 
@@ -50,6 +47,11 @@ The media query for the responsive contact form on the home page was also taken 
 
 The responsive Navbar Javascript function was found on the 'Beyond Bootstrap' section in 'Bootstrapping your next big idea' on the course module with the Code Institute.
 
-I found the scrolling parallax tutorial on https://www.w3schools.com/howto/howto_css_parallax.asp
+I found the scrolling parallax tutorial on: https://www.w3schools.com/howto/howto_css_parallax.asp
 
-I found the photo carousel tutorial on http://w3schools.com/bootstrap/bootstrap_carousel.asp
+I found the photo carousel tutorial on: http://w3schools.com/bootstrap/bootstrap_carousel.asp
+
+I found the lightbox snippet on the Portfolio page on: https://epicbootstrap.com/snippets/lightbox-gallery
+
+
+
