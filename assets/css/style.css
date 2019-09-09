@@ -58,6 +58,7 @@
     color: #e84610!important;
 }
 
+
 /*-------------------------------------------------------------------PARALLAX*/
 
 .jumbotron {
@@ -132,7 +133,6 @@
     text-align: center;
 }
 
-
 .parallaxfour {
     background-image: url("../../assets/images/BW9.jpg");
     min-height: 600px;
@@ -149,14 +149,16 @@
     text-align: center;
 }
 
+
 /*-------------------------------------------------------------------CAROUSEL*/
 
-.carousel img {
+.carousel-item img {
     background-color: #d6d5d5;
     margin: 0;
     border: 2px solid #e84610;
     border-radius: 15px;
 }
+
 
 /*-------------------------------------------------------------------PORTFOLIO*/
 
@@ -175,7 +177,6 @@
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
-
 }
 
 .img-thumbnail {
@@ -199,7 +200,6 @@
 }
 
 .find-me {
-
     background-image: url("../../assets/images/BW11.jpg");
     background-attachment: scroll;
     background-size: cover;
@@ -218,7 +218,6 @@
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
-
 }
 
 .find-me p {
@@ -289,6 +288,7 @@
     color: #e84610;
 }
 
+
 /*-------------------------------------------------------------------FORM*/
 
 .center-form {
@@ -300,7 +300,6 @@
     background-color: #fafafa;
     padding: 20px;
 }
-
 
 button[type=submit] {
     font-family: 'Julius Sans One', sans-serif;
@@ -337,6 +336,7 @@ button[type=submit]:hover {
     color: #e84610;
 }
 
+
 /*-------------------------------------------------------------------FOOTER*/
 
 footer {
@@ -353,7 +353,6 @@ footer {
 .footer-content {
     color: #111111;
     text-align: center;
-
 }
 
 .social-links li a i {
@@ -380,6 +379,7 @@ footer {
     padding: 20px;
 }
 
+
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
 @media(min-width:320px) and (max-width:767px) {
@@ -390,7 +390,6 @@ footer {
         max-width: 90%;
     }
 }
-
 
 @media(min-width: 768px) and (max-width:991px) {
     .center-form {
@@ -457,7 +456,6 @@ footer {
     .parallaxfour {
         margin-bottom: 100px;
         min-height: inherit;
-
     }
 }
 
