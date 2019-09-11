@@ -1,10 +1,15 @@
 ## Elaine Archbold User-Centric Frontend Development Milestone Project
 
-This is a contact and portfolio site for Ritchie Hogan. Ritchie is a friend of mine and has allowed me to use his name and photographs for this project.
+This is a portfolio site for Ritchie Hogan. Ritchie is a friend of mine who is an amateur photographer and has allowed me to use his name and photographs for this project.
+
 
 
 ## UX
-My goal in the design is to display Ritchies porfolio of work, along with his contact details. I wanted to create a clean and simple look, with the photos speaking for themselves.
+My goal in the design was to display Ritchie’s portfolio of work, along with his contact details should users wish to collaborate with him on a project.
+
+*As a user type, someone interested in working with or purchasing from Ritchie would want to be able to easily access his body of work or to be able to reach out and contact him. For this reason, I created a clean and simple look, with the photos speaking for themselves. It was important that the site is responsive and very user friendly with the images taking centre stage and easy to access. I kept the colour palette simple with shades of grey and added #e84610 for a highlight of colour.
+
+I kept the Navbar and footer simple, and the lightbox on the portfolio page gives an overall gallery view before an image is selected, which is when the lightbox effect kicks in.
 
 
 ## Technologies
@@ -15,9 +20,11 @@ My goal in the design is to display Ritchies porfolio of work, along with his co
 
 
 ## Features
-The home page features a scrolling parallax effect, with photo carousel and contact form.
-The portfolio page includes a gallery lightbox made from a snippet taken from https://epicbootstrap.com/snippets/lightbox-gallery.
-I used the hvr-sweep-to-bottom bootstrap function for the Navbar, and used teansitions for the buttons and links.
+The home page features a scrolling parallax effect, with a photo carousel and contact form.
+
+The portfolio page includes a gallery lightbox made from a snippet taken from https://epicbootstrap.com/snippets/lightbox-gallery. The images display in a gallery view until one is selected.
+
+I used the hvr-sweep-to-bottom bootstrap function for the Navbar and used transitions for the buttons and links.
 
 
 ### Features Left to Implement
@@ -25,25 +32,37 @@ I would like to add a 'shop' page where people could purchase prints of the imag
 
 
 ## Testing
-I have set all of the footer links to the social media site homepage, apart from Instagram. Ritchies Instagram page is the only one he has currently set up. All links open in a new tab.
+I have set all of the footer links to link to the social media site homepages, apart from Instagram. Ritchie’s Instagram page is the only one he is currently active on. All links open in a new tab.
 
 I used Google Developer Tools to check the responsiveness of the site.
 
-All HTML was checked on the W3C Markup Validation Service.
+All HTML was checked on the W3C Mark-up Validation Service.
 
 The CSS was checked on the W3C CSS Validation Service.
 
 All HTML was formatted on https://freeformatter.com.
 
-## Deployment
+Screenshots of the responsive design can be seen here:
+![Desktop View1](images/desktop1.jpg)
+![Desktop View2](assets/desktop2.jpg)
+![Desktop View3](assets/desktop3.jpg)
+![Tablet View1](assets/tablet1.jpg)
+![Tablet View2](assets/tablet2.jpg)
+![Tablet View3](assets/tablet3.jpg)
+![Mobile View1](assets/mobile1.jpg)
+![Mobile View2](assets/mobile2.jpg)
+![Mobile View3](assets/mobile3.jpg)
 
+## Deployment
+This project was written partly in Brackets, and then edited in GitPod before being deployed to GitHub.
 
 ### Content
-All photographs used are those of Ritchie Hogan, and are being used for the purpose of this project with his permimssion.
+The text in the 'about me' section on the home page was taken from: https://time.com/4839246/photographers-passion/
+"Why We Do It: Photographers and Photo Editors on the Passion That Drives Their Work"
 
 ### Media
 All photos used are those belonging to Ritchie Hogan, and he has given permission to use them for the purpose of this project.
-I used Photoshop to create the background image of Parallaxtwo. I used image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section in mobile devices.
+I used Photoshop to create the background image of Parallaxtwo. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
 
 ### Acknowledgements
 The footer content was taken and amended from the bootstrap resume mini-project with the Code Institute.
@@ -57,6 +76,3 @@ I found the scrolling parallax tutorial on: https://www.w3schools.com/howto/howt
 I found the photo carousel tutorial on: http://w3schools.com/bootstrap/bootstrap_carousel.asp
 
 I found the lightbox snippet on the Portfolio page on: https://epicbootstrap.com/snippets/lightbox-gallery
-
-
-
