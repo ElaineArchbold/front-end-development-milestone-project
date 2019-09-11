@@ -43,15 +43,16 @@ The CSS was checked on the W3C CSS Validation Service.
 All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
-![Desktop View1](images/desktop1.jpg)
-![Desktop View2](assets/desktop2.jpg)
-![Desktop View3](assets/desktop3.jpg)
-![Tablet View1](assets/tablet1.jpg)
-![Tablet View2](assets/tablet2.jpg)
-![Tablet View3](assets/tablet3.jpg)
-![Mobile View1](assets/mobile1.jpg)
-![Mobile View2](assets/mobile2.jpg)
-![Mobile View3](assets/mobile3.jpg)
+![Desktop View1](assets/images/desktop1.jpg)
+![Desktop View2](assets/images/desktop2.jpg)
+![Desktop View3](assets/images/desktop3.jpg)
+![Tablet View1](assets/images/tablet1.jpg)
+![Tablet View2](assets/images/tablet2.jpg)
+![Tablet View3](assets/images/tablet3.jpg)
+![Mobile View1](assets/images/mobile1.jpg)
+![Mobile View2](assets/images/mobile2.jpg)
+![Mobile View3](assets/images/mobile3.jpg)
+
 
 ## Deployment
 This project was written partly in Brackets, and then edited in GitPod before being deployed to GitHub.
