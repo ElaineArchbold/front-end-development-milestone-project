@@ -418,6 +418,7 @@ footer {
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone  {
        width:100%;
+       min-height: 300px;
     }
 }
 @media(min-width:320px) and (max-width:992px) {
