@@ -415,12 +415,7 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:992px) {
-    .parallaxone  {
-       width:100%;
-       min-height: 1200px;
-    }
-}
+
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone h3 {
         font-size: 5vw;
