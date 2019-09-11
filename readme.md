@@ -44,6 +44,7 @@ All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
 ![Desktop View1](assets/images/desktop1.jpg)
+[[assets/images/desktop1.jpg\|height=49px]]
 ![Desktop View2](assets/images/desktop2.jpg)
 ![Desktop View3](assets/images/desktop3.jpg)
 ![Tablet View1](assets/images/tablet1.jpg)
