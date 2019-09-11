@@ -416,6 +416,11 @@ footer {
 }
 
 @media(min-width:320px) and (max-width:992px) {
+    .parallaxone  {
+       width:100%;
+    }
+}
+@media(min-width:320px) and (max-width:992px) {
     .parallaxone h3 {
         font-size: 5vw;
     }
@@ -463,8 +468,9 @@ footer {
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxfour {
-        margin-bottom: 100px;
+        margin-bottom: 90px;
         min-height: inherit;
+        width:100%;
     }
 }
 
