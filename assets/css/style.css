@@ -170,18 +170,20 @@
 }
 
 .portfolio-images {
-    padding: 40px;
+    padding: 20px;
 }
 
 .portfolio-page h3 {
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
+    padding-top: 20px;
 }
 
 .img-thumbnail {
     border: 1px solid #e84610;
     border-radius: 5px;
+    padding: 5px;
 }
 
 .photos p {
@@ -190,25 +192,28 @@
     text-align: center;
 }
 
+.item {
+    padding: 4px;
+}
+
 
 /*-------------------------------------------------------------------CONTACT PAGE*/
 
-.col-12 {
-    padding-left: 0;
-    padding-right: 0;
-    margin-bottom: 20px;
-}
-
 .find-me {
     background-image: url("../../assets/images/BW11.jpg");
+    width: 100%;
     background-attachment: scroll;
     background-size: cover;
     background-position: 50% 50%;
-    margin-bottom: 80px;
+    margin-top: 20px;
+    padding: 0;
+    height: auto;
+    margin-bottom: 100px;
 }
 
 .find-me h1 {
     color: #e84610;
+    padding-top: 20px;
     padding-bottom: 20px;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
@@ -218,6 +223,7 @@
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
+    padding-top: 20px;
 }
 
 .find-me p {
@@ -227,13 +233,17 @@
 }
 
 .find-me-container {
+    padding-top: 50px;
     background-color: white;
     opacity: .9;
-    margin: 0 auto;
-    max-width: 40%;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    padding: 20px;
+    width: 100%;
+}
+
+.iframe-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .main-form {
@@ -241,7 +251,6 @@
     margin-top: 100px;
     border-radius: 5px;
     background-color: #fafafa;
-    margin-bottom: 100px;
 }
 
 .main-form h1 {
@@ -271,8 +280,8 @@
     border: 1px solid #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -webkit transition: all 0.35s ease-in-out;
-    -o transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .main-form .form-control {
@@ -320,8 +329,8 @@ button[type=submit]:hover {
     border: 1px solid #e84610;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -webkit transition: all 0.35s ease-in-out;
-    -o transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .form-control {
@@ -367,8 +376,8 @@ footer {
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
-    -webkit transition: all 0.35s ease-in-out;
-    -o transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links li a i:hover {
@@ -466,15 +475,24 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:767px) {
+@media(min-width:320px) and (max-width:1024px) {
     .find-me-container {
-        background-color: white;
-        opacity: .9;
-        padding-top: 10px;
-        margin: 0 auto;
-        max-width: 90%;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 100px;
+    }
+}
+
+@media(min-width:320px) and (max-width:1024px) {
+    .find-me-container p {
+        text-overflow: ellipsis;
+    }
+}
+
+@media(min-width:320px) and (max-width:991px) {
+    .iframe-container {
+        width: 100%;
+        padding: 0;
         margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 20px;
     }
 }
