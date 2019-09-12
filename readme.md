@@ -44,10 +44,10 @@ All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
 <p align="center">
-  <img src="https://github.com/ElaineArchbold/front-end-development-milestone-project/blob/master/assets/images/desktop1.jpg" title="Github Logo" "width=50px">
+  <img src="https://github.com/ElaineArchbold/front-end-development-milestone-project/blob/master/assets/images/desktop1.jpg" title="Github Logo" style="width:50px">
 </p>
 
-![Desktop View1](assets/images/desktop1.jpg
+![Desktop View1](assets/images/desktop1.jpg)
 ![Desktop View2](assets/images/desktop2.jpg)
 ![Desktop View3](assets/images/desktop3.jpg)
 ![Tablet View1](assets/images/tablet1.jpg)
