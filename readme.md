@@ -44,7 +44,7 @@ All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
 
-![Desktop View1](<img src="/ElaineArchbold/front-end-development-milestone-project/raw/master/assets/images/desktop1.jpg" alt="Desktop View1" style="max-width:50%;">)
+![Desktop View1](<a target="_blank" rel="noopener noreferrer" href="/ElaineArchbold/front-end-development-milestone-project/blob/master/img%20src=%22/ElaineArchbold/front-end-development-milestone-project/raw/master/assets/images/desktop1.jpg%22%20alt=%22Desktop%20View1%22%20style=%22max-width:50%;%22"><img src="/ElaineArchbold/front-end-development-milestone-project/raw/master/img%20src=%22/ElaineArchbold/front-end-development-milestone-project/raw/master/assets/images/desktop1.jpg%22%20alt=%22Desktop%20View1%22%20style=%22max-width:50%;%22" alt="Desktop View1" style="max-width:100%;"></a>)
 ![Desktop View2](assets/images/desktop2.jpg)
 ![Desktop View3](assets/images/desktop3.jpg)
 ![Tablet View1](assets/images/tablet1.jpg)
