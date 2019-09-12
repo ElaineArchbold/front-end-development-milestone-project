@@ -44,7 +44,7 @@ All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
 <p align="center">
-  <img src="https://github.com/ElaineArchbold/front-end-development-milestone-project/blob/master/assets/images/desktop1.jpg" title="Github Logo width="50px">
+  <img src="https://github.com/ElaineArchbold/front-end-development-milestone-project/blob/master/assets/images/desktop1.jpg" title="Github Logo style="max-width:50px">
 </p>
 
 ![Desktop View1](assets/images/desktop1.jpg)
