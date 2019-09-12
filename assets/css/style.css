@@ -357,7 +357,7 @@ footer {
     color: #fafafa;
     bottom: 0;
     padding-bottom: 20px;
-    height: 90px;
+    height: 70px;
 }
 
 .footer-content {
@@ -385,8 +385,9 @@ footer {
     color: #e84610;
 }
 
-#footer-details {
-    padding: 20px;
+.footer-details {
+    padding-top: 5px;
+
 }
 
 
@@ -419,7 +420,8 @@ footer {
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone {
         background-image: url("../../assets/images/par1responsive.jpg");
-
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -472,8 +474,9 @@ footer {
 @media(min-width:320px) and (max-width:992px) {
     .parallaxfour {
         background-image: url("../../assets/images/par4responsive.jpg");
-        margin-bottom: 100px;
-
+        margin-bottom: 50px;
+        width: 100%;
+        height: auto;
     }
 }
 
@@ -488,20 +491,42 @@ footer {
     .find-me-container {
         width: 100%;
         padding: 0;
-        margin-bottom: 100px;
+        margin-bottom: 10px;
     }
 }
 
-@media(min-width:320px) and (max-width:1024px) {
-    .find-me-container p {
-        text-overflow: ellipsis;
-    }
-}
 
 @media(min-width:320px) and (max-width:991px) {
     .iframe-container {
         width: 100%;
         padding: 0;
         margin-bottom: 20px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:991px) {
+    .social-links li a i {
+        line-height: 30px;
+        width: 30px;
+        height: 30px;
+        padding: 0px;
+        border-radius: 50%;
+        font-size: 20px;
+        line-height: 30px;
+
+    }
+}
+
+@media(min-width: 320px) and (max-width:991px) {
+    .footer-details {
+        padding-top: 2px;
+        padding-bottom: 2px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:991px) {
+    footer {
+        line-height: 50px;
+        height: 50px;
     }
 }
