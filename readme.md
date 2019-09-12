@@ -53,7 +53,6 @@ Screenshots of the responsive design can be seen here:
 ![Mobile View2](assets/images/mobile2.jpg)
 ![Mobile View3](assets/images/mobile3.jpg)
 
-
 ## Deployment
 This project was written partly in Brackets, and then edited in GitPod before being deployed to GitHub.
 

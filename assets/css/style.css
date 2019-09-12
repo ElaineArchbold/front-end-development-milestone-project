@@ -230,6 +230,7 @@
     color: #111111;
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
+    text-decoration: none;
 }
 
 .find-me-container {
@@ -415,6 +416,12 @@ footer {
     }
 }
 
+@media(min-width:320px) and (max-width:992px) {
+    .parallaxone {
+        background-image: url("../../assets/images/par1responsive.jpg");
+
+    }
+}
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone h3 {
@@ -464,9 +471,9 @@ footer {
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxfour {
-        margin-bottom: 90px;
-        min-height: inherit;
-        width:100%;
+        background-image: url("../../assets/images/par4responsive.jpg");
+        margin-bottom: 100px;
+
     }
 }
 
