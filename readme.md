@@ -43,7 +43,7 @@ The CSS was checked on the W3C CSS Validation Service.
 All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
-<img src="https://github.com/ElaineArchbold/front-end-development-milestone-project/blob/master/assets/images/desktop1.jpg" title="Github Logo">
+<img src="https://github.com/ElaineArchbold/front-end-development-milestone-project/blob/master/assets/images/desktop1.jpg" title="Github Logo" style="width:50%">
 ![Desktop View1](assets/images/desktop1.jpg
 ![Desktop View2](assets/images/desktop2.jpg)
 ![Desktop View3](assets/images/desktop3.jpg)
