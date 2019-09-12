@@ -20,11 +20,13 @@ I kept the Navbar and footer simple, and the lightbox on the portfolio page give
 
 
 ## Features
-The home page features a scrolling parallax effect, with a photo carousel and contact form.
+The home page features a scrolling parallax effect, a photo carousel and contact form.
 
 The portfolio page includes a gallery lightbox made from a snippet taken from https://epicbootstrap.com/snippets/lightbox-gallery. The images display in a gallery view until one is selected.
 
 I used the hvr-sweep-to-bottom bootstrap function for the Navbar and used transitions for the buttons and links.
+
+The contact page contains a contact form, a google maps iframe and a contact section.
 
 
 ### Features Left to Implement
@@ -34,7 +36,9 @@ I would like to add a 'shop' page where people could purchase prints of the imag
 ## Testing
 I have set all of the footer links to link to the social media site homepages, apart from Instagram. Ritchie’s Instagram page is the only one he is currently active on. All links open in a new tab.
 
-I used Google Developer Tools to check the responsiveness of the site. The Navbar and footer are resposive and reduce on smaller screens. Also, most of the sections have media queries attached to them to allow for better UX on mobile devices.
+I used Google Developer Tools to check the responsiveness of the site. The Navbar and footer are responsive and reduce on smaller screens. Also, most of the sections have media queries attached to them to allow for better UX on mobile devices.
+
+The site had been tested on Chrome, Firefox and Safari.
 
 All HTML was checked on the W3C Mark-up Validation Service.
 
@@ -43,7 +47,6 @@ The CSS was checked on the W3C CSS Validation Service.
 All HTML was formatted on https://freeformatter.com.
 
 Screenshots of the responsive design can be seen here:
-
 
 ![Desktop View1](assets/images/responsivedesign.jpg)
 
@@ -56,7 +59,7 @@ The text in the 'about me' section on the home page was taken from: https://time
 
 ### Media
 All photos used are those belonging to Ritchie Hogan, and he has given permission to use them for the purpose of this project.
-I used Photoshop to create the background image of Parallaxtwo. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
+I used Photoshop to create the background image of Parallax two. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
 
 ### Acknowledgements
 The footer content was taken and amended from the bootstrap resume mini-project with the Code Institute.
