@@ -178,7 +178,9 @@
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
     padding-top: 20px;
+
 }
+
 
 .img-thumbnail {
     border: 1px solid #e84610;
@@ -486,7 +488,14 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:1024px) {
+@media(min-width:320px) and (max-width:992px) {
+    .portfolio-page {
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+}
+
+@media(min-width: 320px) and (max-width:1024px) {
     .find-me-container {
         width: 100%;
         padding: 0;
