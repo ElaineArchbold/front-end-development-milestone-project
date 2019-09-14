@@ -420,7 +420,7 @@ footer {
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone {
-        background-image: url("../assets/images/par1responsive.jpg");
+        background-image: url("../../assets/images/par1responsive.jpg");
         width: 100%;
         height: auto;
     }
