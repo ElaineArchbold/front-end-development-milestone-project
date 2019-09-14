@@ -424,6 +424,7 @@ footer {
        background-attachment:scroll;
         width: 100%;
         height: auto;
+        z-index:1;
     }
 }
 
