@@ -420,9 +420,11 @@ footer {
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone {
-        background-image: url("../../assets/images/par1responsive.jpg");
+          background-image: url("../../assets/images/par1responsive.jpg");
+       background-attachment:scroll;
         width: 100%;
         height: auto;
+        z-index:1;
     }
 }
 
@@ -476,8 +478,10 @@ footer {
     .parallaxfour {
         background-image: url("../../assets/images/par4responsive.jpg");
         margin-bottom: 50px;
-        width: 100%;
-        height: auto;
+              min-height: 600px;
+
+      background-position: 100%;
+        z-index:1;
     }
 }
 
