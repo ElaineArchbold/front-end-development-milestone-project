@@ -476,11 +476,12 @@ footer {
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxfour {
-        background-image: url("../../assets/images/par4responsive.jpg");
+         background-image: url("../../assets/images/par4responsive.jpg");
         margin-bottom: 50px;
-                 
+              min-height: 600px;
+
         width: 100%;
-        height: auto;
+       
         z-index:2;
     }
 }
