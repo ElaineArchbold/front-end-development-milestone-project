@@ -478,8 +478,10 @@ footer {
     .parallaxfour {
         background-image: url("../../assets/images/par4responsive.jpg");
         margin-bottom: 50px;
+                 
         width: 100%;
         height: auto;
+        z-index:2;
     }
 }
 
