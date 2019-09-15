@@ -1,13 +1,13 @@
 ## Elaine Archbold User-Centric Frontend Development Milestone Project
 
-This is a portfolio site for Ritchie Hogan. Ritchie is a friend of mine who is an amateur photographer and has allowed me to use his name and photographs for this project.
+This is a portfolio site for amateur photographer Ritchie Hogan. Ritchie has given me permission to use his name and photographs for this project.
 
 
 
 ## UX
 My goal in the design was to display Ritchie’s portfolio of work, along with his contact details should users wish to collaborate with him on a project.
 
-*As a user type, someone interested in working with or purchasing from Ritchie would want to be able to easily access his body of work or to be able to reach out and contact him. For this reason, I created a clean and simple look, with the photos speaking for themselves. It was important that the site is responsive and very user friendly with the images taking centre stage and easy to access. I kept the colour palette simple with shades of grey and added #e84610 for a highlight of colour.
+*As a user type, someone interested in working with or purchasing from Ritchie would want to be able to easily access his body of work, or to be able to reach out and contact him. For this reason, I created a clean and simple look, with the photos speaking for themselves. It was important that the site is responsive and very user friendly with the images taking centre stage and easy to access. I kept the colour palette simple with shades of grey and added #e84610 for a highlight of colour.
 
 I kept the Navbar and footer simple, and the lightbox on the portfolio page gives an overall gallery view before an image is selected, which is when the lightbox effect kicks in.
 
@@ -26,11 +26,11 @@ The portfolio page includes a gallery lightbox made from a snippet taken from ht
 
 I used the hvr-sweep-to-bottom bootstrap function for the Navbar and used transitions for the buttons and links.
 
-The contact page contains a contact form, a google maps iframe and a contact section.
+The contact page contains a contact form, a google maps iframe and a contact details section.
 
 
 ### Features Left to Implement
-I would like to add a 'shop' page where people could purchase prints of the images and an 'upcoming events' page when Ritchie begins to display his work in public.
+I would like to add a 'shop' page where people could purchase prints of the images and an 'upcoming events' page when Ritchie begins to display his work to the public.
 
 
 ## Testing
@@ -39,6 +39,8 @@ I have set all of the footer links to link to the social media site homepages, a
 I used Google Developer Tools to check the responsiveness of the site. The Navbar and footer are responsive and reduce on smaller screens. Also, most of the sections have media queries attached to them to allow for better UX on mobile devices.
 
 The site had been tested on Chrome, Firefox and Safari.
+
+I used the GitHub pages link to check the site on my phone, where I discovered some discrepancies between what was shown in developer tools and what was actually showing on the live site. This allowed me to fix these issues to ensure that the live site would look how it should.
 
 All HTML was checked on the W3C Mark-up Validation Service.
 
@@ -58,8 +60,8 @@ The text in the 'about me' section on the home page was taken from: https://time
 "Why We Do It: Photographers and Photo Editors on the Passion That Drives Their Work"
 
 ### Media
-All photos used are those belonging to Ritchie Hogan, and he has given permission to use them for the purpose of this project.
-I used Photoshop to create the background image of Parallax two. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
+All photographs used are those belonging to Ritchie Hogan, and he has given permission to use them for the purpose of this project.
+I used Photoshop to create the background image for Parallax two. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
 
 ### Acknowledgements
 The footer content was taken and amended from the bootstrap resume mini-project with the Code Institute.
