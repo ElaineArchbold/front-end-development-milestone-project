@@ -1,36 +1,42 @@
 ## Elaine Archbold User-Centric Frontend Development Milestone Project
 
-This is a portfolio site for amateur photographer Ritchie Hogan. Ritchie has given me permission to use his name and photographs for this project.
-
+This is a portfolio site for amateur photographer Ritchie Hogan. Ritchie has built up a collection of work over the past couple of years. He currently displays his work through his Instagram feed, but in the future would like to run a website where he would be able to offer prints of his photos for sale.
+He is in the process of increasing his follower numbers on Instagram but would like to utilise more social media channels and drive traffic to this website.
 
 
 ## UX
-My goal in the design was to display Ritchie’s portfolio of work, along with his contact details should users wish to collaborate with him on a project.
-
-*As a user type, someone interested in working with or purchasing from Ritchie would want to be able to easily access his body of work, or to be able to reach out and contact him. For this reason, I created a clean and simple look, with the photos speaking for themselves. It was important that the site is responsive and very user friendly with the images taking centre stage and easy to access. I kept the colour palette simple with shades of grey and added #e84610 for a highlight of colour.
+My goal in the design was to display Ritchie’s portfolio of work, along with his contact details should users wish to collaborate with him on a project. I created a clean and simple look, with the photos speaking for themselves. It was important that the site is responsive and very user friendly with the images taking centre stage and easy to access. I kept the colour palette simple with shades of grey and added #e84610 for a highlight of colour.
 
 I kept the Navbar and footer simple, and the lightbox on the portfolio page gives an overall gallery view before an image is selected, which is when the lightbox effect kicks in.
 
+*User A - wants to be able to view Ritchie's portfolio. The Navbar contains a portfolio link which will take the user to the portfolio page where all of the images are available. I have also put a link to the Portfolio page just below the photo carousel on the home page.
 
-## Technologies
-1. HTML
-2. CSS
-3. Bootstrap (4)
-4. Photoshop
+*User B - wants to get in touch with Ritchie to discuss a future project. There is a contact form on the home page, as well as a Contact link in the NavBar to take the user to a contact page containing a contact form and contact details for Ritchie.
+
+
+The site can be viewed through GitHub pages here: https://elainearchbold.github.io/front-end-development-milestone-project/
 
 
 ## Features
-The home page features a scrolling parallax effect, a photo carousel and contact form.
+### Existing Features
+The home page features a scrolling parallax effect, with four sections. Section one is the landing view and is one of Ritchie's images with a photography quote. Section two is a small 'about me' section (see in 'content' below for the text reference), Section three contains a photo carousel displaying a few of Ritchie's images along with a link to the Portfolio page, and finally Section four contains a contact form.
 
 The portfolio page includes a gallery lightbox made from a snippet taken from https://epicbootstrap.com/snippets/lightbox-gallery. The images display in a gallery view until one is selected.
 
-I used the hvr-sweep-to-bottom bootstrap function for the Navbar and used transitions for the buttons and links.
+I used the hvr-sweep-to-bottom bootstrap function for the Navbar items and I used transitions for the buttons and foooter links.
 
 The contact page contains a contact form, a google maps iframe and a contact details section.
 
 
 ### Features Left to Implement
 I would like to add a 'shop' page where people could purchase prints of the images and an 'upcoming events' page when Ritchie begins to display his work to the public.
+
+
+## Technologies Used
+1. HTML
+2. CSS
+3. Bootstrap (4)
+4. Photoshop
 
 
 ## Testing
@@ -48,13 +54,19 @@ The CSS was checked on the W3C CSS Validation Service.
 
 All HTML was formatted on https://freeformatter.com.
 
+All links have been tested.
+
+The forms have been tested and will not submit unless the information is entered in the correct format.
+
 Screenshots of the responsive design can be seen here:
 
 ![Desktop View1](assets/images/responsivedesign.jpg)
 
 ## Deployment
-This project was written partly in Brackets, and then edited in GitPod before being deployed to GitHub.
+This project was written partly in Brackets, and then edited in GitPod before being deployed to GitHub. I had been using Cloud9 through AWS educate, but following some issues with account credits, I was advised by Student Support to use GitPod.
 
+
+## Credits
 ### Content
 The text in the 'about me' section on the home page was taken from: https://time.com/4839246/photographers-passion/
 "Why We Do It: Photographers and Photo Editors on the Passion That Drives Their Work"

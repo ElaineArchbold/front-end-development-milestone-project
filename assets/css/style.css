@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Julius+Sans+One:100,200,300,400,500,600,700|Red+Hat+Display:100,200,300,400,500,600,700');
 
-/*-------------------------------------------------------------------NAVBAR*/
+/*-----------------------------------------------------------------NAVBAR*/
 
 .navbar {
     margin-bottom: 0;
@@ -59,7 +59,7 @@
 }
 
 
-/*-------------------------------------------------------------------PARALLAX*/
+/*-----------------------------------------------------------------PARALLAX*/
 
 .jumbotron {
     margin: 0;
@@ -138,6 +138,22 @@
     text-align: center;
 }
 
+
+.parallaxthree p {
+    color: #e84610;
+    font-weight: 100;
+    line-height: 50px;
+    letter-spacing: 4px;
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.parallaxthree a {
+    text-decoration: none;
+}
+
+
 .parallaxfour {
     background-image: url("../../assets/images/BW9.jpg");
     min-height: 600px;
@@ -157,7 +173,7 @@
 }
 
 
-/*-------------------------------------------------------------------CAROUSEL*/
+/*-----------------------------------------------------------------CAROUSEL*/
 
 .carousel-item img {
     background-color: #d6d5d5;
@@ -167,7 +183,7 @@
 }
 
 
-/*-------------------------------------------------------------------PORTFOLIO*/
+/*-----------------------------------------------------------------PORTFOLIO*/
 
 .portfolio-page {
     margin-top: 80px;
@@ -204,7 +220,7 @@
 }
 
 
-/*-------------------------------------------------------------------CONTACT PAGE*/
+/*-----------------------------------------------------------------CONTACT PAGE*/
 
 .find-me {
     background-image: url("../../assets/images/BW11.jpg");
@@ -306,7 +322,7 @@
 }
 
 
-/*-------------------------------------------------------------------FORM*/
+/*-----------------------------------------------------------------FORM*/
 
 .center-form {
     padding-top: 10px;
@@ -354,7 +370,7 @@ button[type=submit]:hover {
 }
 
 
-/*-------------------------------------------------------------------FOOTER*/
+/*-----------------------------------------------------------------FOOTER*/
 
 footer {
     background-color: #d6d5d5;
@@ -397,7 +413,7 @@ footer {
 }
 
 
-/*-------------------------------------------------------------------MEDIA QUERIES*/
+/*-----------------------------------------------------------------MEDIA QUERIES*/
 
 @media(min-width:320px) and (max-width:767px) {
     .center-form {
@@ -422,6 +438,7 @@ footer {
         letter-spacing: 3px;
     }
 }
+
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone {
