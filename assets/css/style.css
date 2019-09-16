@@ -82,6 +82,7 @@
     margin-top: 100px;
     text-align: center;
     margin-bottom: 0;
+    letter-spacing: 7px;
 }
 
 .parallaxone p {
@@ -103,9 +104,11 @@
 
 .parallaxtwo h2 {
     padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: #fafafa;
     font-family: 'Julius Sans One', sans-serif;
-    letter-spacing: 4px;
+    letter-spacing: 7px;
     text-align: center;
 }
 
@@ -126,10 +129,12 @@
     background-position: 50% 50%;
 }
 
-.parallaxthree h1 {
+.parallaxthree h2 {
     color: #111111;
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 7px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     text-align: center;
 }
 
@@ -142,11 +147,13 @@
     background-position: 50% 50%;
 }
 
-.parallaxfour h1 {
+.parallaxfour h2 {
     color: #e84610;
     font-family: 'Julius Sans One', sans-serif;
     letter-spacing: 7px;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -178,9 +185,7 @@
     font-family: 'Julius Sans One', sans-serif;
     text-align: center;
     padding-top: 20px;
-
 }
-
 
 .img-thumbnail {
     border: 1px solid #e84610;
@@ -420,17 +425,17 @@ footer {
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone {
-          background-image: url("../../assets/images/par1responsive.jpg");
-       background-attachment:scroll;
+        background-image: url("../../assets/images/par1responsive.jpg");
+        background-attachment: scroll;
         width: 100%;
         height: auto;
-        z-index:1;
+        z-index: 1;
     }
 }
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxone h3 {
-        font-size: 5vw;
+        letter-spacing: 1px;
     }
 }
 
@@ -448,11 +453,6 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:767px) {
-    .parallaxtwo h2 {
-        font-size: 8vw;
-    }
-}
 
 @media(min-width:320px) and (max-width:767px) {
     .parallaxtwo p {
@@ -467,30 +467,15 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:992px) {
-    .parallaxthree h1 {
-        font-size: 7vw;
-        letter-spacing: 2px;
-    }
-}
 
 @media(min-width:320px) and (max-width:992px) {
     .parallaxfour {
-        background-image: url("../../assets/images/par4responsive.jpg");
+        background-image: none;
+        background-color: #f2f2f2;
         margin-bottom: 50px;
-              min-height: 600px;
-
-      background-position: 100%;
-        z-index:1;
     }
 }
 
-@media(min-width:320px) and (max-width:992px) {
-    .parallaxfour h1 {
-        font-size: 7vw;
-        letter-spacing: 2px;
-    }
-}
 
 @media(min-width:320px) and (max-width:992px) {
     .portfolio-page {
