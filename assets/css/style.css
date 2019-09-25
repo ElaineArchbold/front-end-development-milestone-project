@@ -61,10 +61,14 @@
 .dropdown-menu {
     background-color: transparent;
     border: none;
+    text-align: left;
 }
+
 
 .dropdown-item:hover {
     color: #e84610;
+    background-color: #fafafa;
+    transition: all 0.5s ease-in-out;
 }
 
 /*-----------------------------------------------------------------PARALLAX*/
@@ -327,6 +331,23 @@ button {
     background-color: none;
     border: none;
     padding: none;
+}
+
+
+.shop-page-buttons {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    color: #e84610;
+    border: 1px solid #e84610;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.shop-page-buttons:hover {
+    color: #fafafa;
+    background-color: #e84610;
 }
 
 /*-----------------------------------------------------------------CONTACT PAGE*/
