@@ -58,6 +58,14 @@
     color: #e84610!important;
 }
 
+.dropdown-menu {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-item:hover {
+    color: #e84610;
+}
 
 /*-----------------------------------------------------------------PARALLAX*/
 
@@ -175,13 +183,11 @@
 
 /*-----------------------------------------------------------------CAROUSEL*/
 
-.carousel-item img {
-    background-color: #d6d5d5;
-    margin: 0;
-    border: 2px solid #e84610;
-    border-radius: 15px;
-}
+.d-block {
+    max-height: 700px;
+    object-fit: contain;
 
+}
 
 /*-----------------------------------------------------------------PORTFOLIO*/
 
@@ -219,6 +225,109 @@
     padding: 4px;
 }
 
+/*-----------------------------------------------------------------SHOP PAGE*/
+
+.shop {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    background-color: #fafafa;
+    min-height: 1900px;
+    max-width: 99%;
+
+}
+
+.shop h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #e84610;
+}
+
+.list-group a {
+    font-family: 'Julius Sans One', sans-serif;
+    text-decoration: none;
+    color: #111111;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+
+.list-group .list-group-item:hover {
+    color: #e84610;
+
+}
+
+
+.list-group-item {
+    border: none;
+    background-color: transparent;
+}
+
+
+.best-sellers {
+    padding: 20px;
+    text-align: center;
+}
+
+.card {
+    border: 1px solid #e84610;
+}
+
+.card-title {
+    padding-top: 8px;
+    margin-bottom: 0;
+}
+
+.card-body {
+    padding: 0;
+    text-align: center;
+}
+
+.card-body h4 {
+    font-family: 'Julius Sans One', sans-serif;
+    color: #e84610;
+    text-align: center;
+
+}
+
+.card-body p {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #111111;
+
+}
+
+
+.card-title a {
+    text-decoration: none;
+    color: #e84610!important;
+}
+
+.card-footer {
+    padding: 0;
+    text-align: center;
+    background-color: none;
+}
+
+.shop-button i {
+    font-size: 30px;
+    color: #e84610;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    padding: none;
+    border: none;
+    cursor: pointer;
+    line-height: 2px;
+}
+
+.shop-button {
+    padding: 0;
+}
+
+button {
+    background-color: none;
+    border: none;
+    padding: none;
+}
 
 /*-----------------------------------------------------------------CONTACT PAGE*/
 
