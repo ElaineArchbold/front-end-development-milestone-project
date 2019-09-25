@@ -23,9 +23,11 @@ The home page features a scrolling parallax effect, with four sections. Section 
 
 The portfolio page includes a gallery lightbox made from a snippet taken from https://epicbootstrap.com/snippets/lightbox-gallery. The images display in a gallery view until one is selected.
 
-I used the hvr-sweep-to-bottom bootstrap function for the Navbar items and I used transitions for the buttons and foooter links.
+I used the hvr-sweep-to-bottom bootstrap function for the Navbar items and I used transitions for the buttons and footer links.
 
 The contact page contains a contact form, a google maps iframe and a contact details section.
+
+I also created a favicon in Photoshop which can further be used for social media branding.
 
 
 ### Features Left to Implement
