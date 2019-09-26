@@ -27,11 +27,15 @@ I used the hvr-sweep-to-bottom bootstrap function for the Navbar items and I use
 
 The contact page contains a contact form, a google maps iframe and a contact details section.
 
-I also created a favicon in Photoshop which can further be used for social media branding.
+I also created a favicon in Photoshop which can be seen on the browser tab and can further be used for social media branding.
+
+I have added a shop page which will need to be further developed to accept payments. Therefore, I have the 'add to cart' links set to go to PayPal and open in a new tab. The shop page contains 4 'series' pages where I have divided the photos into groups. There are navigation buttons at the top of each page to navigate through each series.
 
 
 ### Features Left to Implement
-I would like to add a 'shop' page where people could purchase prints of the images and an 'upcoming events' page when Ritchie begins to display his work to the public.
+I have added a shop page, but this will need to be further developed to add the payment functionality. I used code from https://startbootstrap.com/templates/shop-homepage/ for this.
+
+These links will also need to be added to the card-titles on the shop pages.
 
 
 ## Technologies Used
@@ -89,3 +93,5 @@ I found the scrolling parallax tutorial on: https://www.w3schools.com/howto/howt
 I found the photo carousel tutorial on: http://w3schools.com/bootstrap/bootstrap_carousel.asp
 
 I found the lightbox snippet on the Portfolio page on: https://epicbootstrap.com/snippets/lightbox-gallery
+
+I found the code for the shop page on: https://startbootstrap.com/templates/shop-homepage/
