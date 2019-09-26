@@ -13,6 +13,7 @@ I kept the Navbar and footer simple, and the lightbox on the portfolio page give
 
 *User B - wants to get in touch with Ritchie to discuss a future project. There is a contact form on the home page, as well as a Contact link in the NavBar to take the user to a contact page containing a contact form and contact details for Ritchie.
 
+*User C - wants to purchase a copy of a photo. They can do this through the Shop page once payment functionality is added.
 
 The site can be viewed through GitHub pages here: https://elainearchbold.github.io/front-end-development-milestone-project/
 
@@ -33,9 +34,7 @@ I have added a shop page which will need to be further developed to accept payme
 
 
 ### Features Left to Implement
-I have added a shop page, but this will need to be further developed to add the payment functionality. I used code from https://startbootstrap.com/templates/shop-homepage/ for this.
-
-These links will also need to be added to the card-titles on the shop pages.
+The Shop page will need to be further developed to add the payment functionality. I used code from https://startbootstrap.com/templates/shop-homepage/ to create the layout of the page.
 
 
 ## Technologies Used
@@ -79,7 +78,7 @@ The text in the 'about me' section on the home page was taken from: https://time
 
 ### Media
 All photographs used are those belonging to Ritchie Hogan, and he has given permission to use them for the purpose of this project.
-I used Photoshop to create the background image for Parallax two. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
+I used Photoshop to create the background image for Parallax two and to create the favicon. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
 
 ### Acknowledgements
 The footer content was taken and amended from the bootstrap resume mini-project with the Code Institute.
