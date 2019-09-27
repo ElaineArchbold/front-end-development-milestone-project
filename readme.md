@@ -26,11 +26,11 @@ The portfolio page includes a gallery lightbox made from a snippet taken from ht
 
 I used the hvr-sweep-to-bottom bootstrap function for the Navbar items and I used transitions for the buttons and footer links.
 
+I have added a shop page which will need to be further developed to accept payments. Therefore, I have the 'add to cart' links set to go to PayPal and open in a new tab. The shop page contains 4 'series' pages where I have divided the photos into groups. There are navigation buttons at the top of each page to navigate through each series. I have added media queries to apply these navigation buttons to the end of the page on small screens for better UX so that the user does not have to scroll back to the top, and to reduce in size to improve their appearance.
+
 The contact page contains a contact form, a google maps iframe and a contact details section.
 
 I also created a favicon in Photoshop which can be seen on the browser tab and can further be used for social media branding.
-
-I have added a shop page which will need to be further developed to accept payments. Therefore, I have the 'add to cart' links set to go to PayPal and open in a new tab. The shop page contains 4 'series' pages where I have divided the photos into groups. There are navigation buttons at the top of each page to navigate through each series.
 
 
 ### Features Left to Implement
@@ -78,7 +78,7 @@ The text in the 'about me' section on the home page was taken from: https://time
 
 ### Media
 All photographs used are those belonging to Ritchie Hogan, and he has given permission to use them for the purpose of this project.
-I used Photoshop to create the background image for Parallax two and to create the favicon. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
+I used Photoshop to create the background image for Parallax two. I used the image adjustments to posterize a photo Ritchie had of himself. This is only visible on larger screens as I used a media query to change the background of this section on mobile devices.
 
 ### Acknowledgements
 The footer content was taken and amended from the bootstrap resume mini-project with the Code Institute.
