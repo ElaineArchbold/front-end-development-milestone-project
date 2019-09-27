@@ -593,7 +593,7 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:767px) {
+@media(min-width:320px) and (max-width:991px) {
     .parallaxtwo {
         background-color: #202020;
         background-size: cover;
@@ -601,10 +601,31 @@ footer {
     }
 }
 
-@media(min-width:320px) and (max-width:767px) {
+@media (min-width: 768px) {
+    .col-md-7 {
+        flex: none;
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .col-md-7 {
+        flex: none;
+        max-width: 70%;
+    }
+}
+
+@media(min-width:320px) and (max-width:991px) {
     .parallaxtwo p {
-        font-size: 5vw;
-        line-height: 30px;
+        font-size: 4.5vw;
+        line-height: inherit;
+    }
+}
+
+@media(min-width:992px) {
+    .parallaxtwo p {
+        font-size: 3.5vw;
+        line-height: inherit;
     }
 }
 
